@@ -1,0 +1,120 @@
+.background-image{
+    background-image: url(./img/Iceberg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100vw;
+    background-position: top center;   
+    position: block;
+}    
+
+@media(max-width:700px){
+    .background-image{
+        height: 50vh;
+    }
+}
+
+
+
+.hero{
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #211C84 !important;
+    
+  }
+
+.subhero{
+  font-family: "Playwrite IT Moderna", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #121774;
+  
+  
+}  
+
+.title{
+    text-align: center;
+    font-family: "Hedvig Letters Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #555ec5 !important;
+    
+}
+
+.subtitle{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  word-spacing:2px;
+  line-height: 1.8;
+
+}
+
+.personnel{
+    border-radius: 50%;
+    object-fit: cover;
+    height: auto;
+    transition: all 0.3s ease;
+    
+}
+
+@media(max-width:768px){
+    .personnel{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media(max-width:480px){
+    .personnel{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+
+.skillimg1{
+    float: left;
+    padding-right: 10px;
+   
+}
+
+.skilltitle{
+    font-family: "Hedvig Letters Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #635ec5 !important;
+    
+}
+
+.skillintroduce{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    word-spacing:2px;
+    line-height: 1.8;
+
+}
+
+.button{
+    font-size: larger;
+    
+}
+
+.bi-linkedin{
+    color: #4b52ce;
+}
+
+.footer{
+    background-color: #bfd4fe;
+}
